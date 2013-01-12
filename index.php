@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="javascripts/respond.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -17,6 +18,7 @@
 
   </head>
   <body>
+<?php include_once("analyticstracking.php");?>
     <a href="https://github.com/agargiulo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
     <div class="wrapper">
 
@@ -49,8 +51,8 @@
 
       <p><a href="mailto:anthony@agargiulo.com">anthony@agargiulo.com</a><br>
       Sysadmin for <a href="http://www.csh.rit.edu">Computer Science House</a><br><a href="mailto:agargiulo@csh.rit.edu">agargiulo@csh.rit.edu</a><br><a href="http://www.rit.edu">Rochester Institute of Technology</a><br><a href="mailto:amg6763@rit.edu">amg6763@rit.edu</a><br></p>
+      <div class="g-plusone" data-href="http://www.agargiulo.com"></div>
       </section>
-
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
