@@ -18,14 +18,14 @@
 
   </head>
   <body>
-<?php include_once("analyticstracking.php");?>
+<?php include_once("analyticstracking.php");
+      include_once("gravatar.php");?>
     <a href="https://github.com/agargiulo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
     <div class="wrapper">
 
       <section>
       <div id="title">
         <h1>Anthony Gargiulo</h1>
-        <p>Personal Website</p>
         <hr>
         <span class="credits left">Project maintained by <a href="https://github.com/agargiulo">agargiulo</a></span>
         <span class="credits right">Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
@@ -46,11 +46,15 @@
       <br></p>
 
       <hr>
-      <p style="float:right"><img src="https://www.csh.rit.edu/%7Eagargiulo/csh_avatar.jpg" alt="CSH Pillow and Me"></p>
+	  <p style="float:right"><img src="<?=$grav_url?>" alt="CSH Pillow and Me"></p>
       <h2>Contact Info</h2>
 
       <p><a href="mailto:anthony@agargiulo.com">anthony@agargiulo.com</a><br>
-      Sysadmin for <a href="http://www.csh.rit.edu">Computer Science House</a><br><a href="mailto:agargiulo@csh.rit.edu">agargiulo@csh.rit.edu</a><br><a href="http://www.rit.edu">Rochester Institute of Technology</a><br><a href="mailto:amg6763@rit.edu">amg6763@rit.edu</a><br></p>
+	  Sysadmin for Computer Science House<br>
+	  <a href="mailto:agargiulo@csh.rit.edu">agargiulo@csh.rit.edu</a><br>
+	  Rochester Institute of Technology<br>
+	  <a href="mailto:amg6763@rit.edu">amg6763@rit.edu</a><br>
+	  </p>
       <div class="g-plusone" data-href="http://www.agargiulo.com"></div>
       </section>
     </div>
