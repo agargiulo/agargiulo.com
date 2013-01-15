@@ -31,10 +31,11 @@
         <span class="credits right">Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
       </div>
 
+	  <p style="float:right"><img src="<?=$grav_url?>" alt="Gravatar Avatar"></p>
       <h1>About Me</h1>
 
-      <p>I'm a third year student currently studying Computer Science at Rochester Institute of Technology. <br>
-      I am an RTP (Root-Type Person, better known as a sysadmin) for Computer Science House (<a href="http://www.csh.rit.edu">CSH</a>) <br>
+      <p>I'm a third year student currently studying Computer Science at Rochester Institute of Technology.
+      I am an RTP (Root-Type Person) for Computer Science House (<a href="http://www.csh.rit.edu">CSH</a>).<br>
       For fun, I spend a large portion of my time tinkering with either my Linux boxen or random code projects that I find interesting. <br></p>
 
 
@@ -46,15 +47,18 @@
       <br></p>
 
       <hr>
-	  <p style="float:right"><img src="<?=$grav_url?>" alt="CSH Pillow and Me"></p>
       <h2>Contact Info</h2>
 
       <p><a href="mailto:anthony@agargiulo.com">anthony@agargiulo.com</a><br>
 	  <a href="mailto:agargiulo@csh.rit.edu">agargiulo@csh.rit.edu</a><br>
 	  <a href="mailto:amg6763@rit.edu">amg6763@rit.edu</a><br>
 	  </p>
-      <div class="g-plusone" data-href="http://www.agargiulo.com"></div>
-      </section>
+	  <hr>
+	  <div class="g-plusone" data-href="https://www.agargiulo.com"></div>
+	  <a href="https://www.linkedin.com/pub/anthony-gargiulo/44/526/b1a">
+	  <img src="https://www.linkedin.com/img/webpromo/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Anthony Gargiulo's profile on LinkedIn">
+	  </a>
+	  </section>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 

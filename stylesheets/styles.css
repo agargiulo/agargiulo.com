@@ -534,7 +534,7 @@ body {
   font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #f0e7d5;
   font-weight: normal;
-  background: #252525;
+  background: #141414;
   background-attachment: fixed !important;
 }
 
@@ -599,7 +599,8 @@ strong {
 }
 
 .wrapper {
-  max-width: 650px;
+  max-width: 950px;
+  background: #252525;
   margin: 0 auto;
   position: relative;
   padding: 0 20px;
@@ -775,7 +776,7 @@ dt {
 }
 
 section {
-  max-width: 650px;
+  max-width: 950px;
   padding: 0px 0px 50px 0px;
   margin: 20px 0;
   margin-top: 70px;
