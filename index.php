@@ -54,6 +54,8 @@
 	  <a href="mailto:amg6763@rit.edu">amg6763@rit.edu</a><br>
 	  </p>
 	  <hr>
+	  <a href="https://ipv6.he.net/certification/scoresheet.php?pass_name=agargiulo" target="_blank"><img src="https://ipv6.he.net/certification/create_badge.php?pass_name=agargiulo&amp;badge=3" style="border: 0; width: 229px; height: 137px" alt="IPv6 Certification Badge for agargiulo"></img></a>
+	  <br>
 	  <div class="g-plusone" data-href="https://www.agargiulo.com"></div>
 	  <a href="https://www.linkedin.com/pub/anthony-gargiulo/44/526/b1a">
 	  <img src="https://www.linkedin.com/img/webpromo/btn_viewmy_120x33.png" width="120" height="33" border="0" alt="View Anthony Gargiulo's profile on LinkedIn">
