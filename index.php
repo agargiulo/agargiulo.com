@@ -54,6 +54,10 @@
 	  <a href="mailto:amg6763@rit.edu">amg6763@rit.edu</a><br>
 	  </p>
 	  <hr>
+	  <a href="http://projecteuler.net/progress=agargiulo">
+	  <img src="http://projecteuler.net/profile/agargiulo.png"/>
+	  </a>
+	  <br>
 	  <a href="https://ipv6.he.net/certification/scoresheet.php?pass_name=agargiulo" target="_blank"><img src="https://ipv6.he.net/certification/create_badge.php?pass_name=agargiulo&amp;badge=3" style="border: 0; width: 229px; height: 137px" alt="IPv6 Certification Badge for agargiulo"></a>
 	  <br>
 	  <a href="https://twitter.com/argargablar" class="twitter-follow-button" data-show-count="false">Follow @argargablar</a>
