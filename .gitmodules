@@ -1,0 +1,4 @@
+[submodule "gatekeeper-android"]
+	path = gatekeeper-android
+	url = git@github.com:agargiulo/gatekeeper-android.git
+	branch = website
