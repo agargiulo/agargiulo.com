@@ -29,39 +29,44 @@ include_once("environment.php");?>
 	<div class="wrapper">
 
 	<section>
-	<div id="title">
-	<h1>Anthony Gargiulo</h1>
-	<hr>
-	<span class="credits left">Project maintained by <a href="https://github.com/agargiulo">agargiulo</a></span>
-	<span class="credits right">Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
-	</div>
+		<div id="title">
+		<h1>Anthony Gargiulo</h1>
+		<hr>
+		<span class="credits left">Project maintained by <a href="https://github.com/agargiulo">agargiulo</a></span>
+		<span class="credits right">Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
+		</div>
 
-	<p style="float:right"><img src="<?=$grav_url?>" alt="Gravatar Avatar"></p>
-	<h1>About Me</h1>
+		<p id="gravatar_image"><img src="<?=$grav_url?>" alt="Gravatar Avatar"></p>
+		<h1>About Me</h1>
 
-	<p>I'm a <?=$RITYearLevel?> year student currently studying Computer Science at Rochester Institute of Technology.
-	I am an RTP (Root-Type Person) for Computer Science House (<a href="http://www.csh.rit.edu">CSH</a>).<br>
-	For fun, I spend a large portion of my time tinkering with either my Linux boxen or random code projects that I find interesting. <br></p>
+		<p>I'm a <?=$RITYearLevel?> year student currently studying Computer Science at Rochester Institute of Technology.
+		I am an RTP (Root-Type Person) for Computer Science House (<a href="http://www.csh.rit.edu">CSH</a>).<br>
+		For fun, I spend a large portion of my time tinkering with either my Linux boxen or random code projects that I find interesting. <br></p>
+	</section>
+	<section>
 
-		<hr/>
+		<hr />
+		<div class="half">
+		<h2>Resume</h2>
+
+		<p><a href="http://resume.agargiulo.com/resume.pdf">PDF Copy </a>
+		<br><a href="http://resume.agargiulo.com/resume.tex.html">LaTeX source</a>
+		<br><a href="https://github.com/agargiulo/resume">Github repo</a>
+		<br></p>
+		</div>
 
 		<div class="half">
-			<h2>Resume</h2>
-			<p><a href="http://resume.agargiulo.com/resume.pdf">PDF Copy </a>
-			<br><a href="http://resume.agargiulo.com/resume.tex.html">LaTeX source</a>
-			<br><a href="https://github.com/agargiulo/resume">Github repo</a>
-			<br></p>
+		<h2>Contact Info</h2>
+
+		<p><a href="mailto:anthony@agargiulo.com">anthony@agargiulo.com</a><br>
+		<a href="mailto:agargiulo@csh.rit.edu">agargiulo@csh.rit.edu</a><br>
+		<a href="mailto:amg6763@rit.edu">amg6763@rit.edu</a><br>
+		</p>
 		</div>
-		<div class="half">
-			<h2>Contact Info</h2>
-			<p><a href="mailto:anthony@agargiulo.com">anthony@agargiulo.com</a><br>
-			<a href="mailto:agargiulo@csh.rit.edu">agargiulo@csh.rit.edu</a><br>
-			<a href="mailto:amg6763@rit.edu">amg6763@rit.edu</a><br>
-			</p>
-		</div>
-		
+	</section>
+	<section>
+
 		<hr class="clear">
-		
 		<a href="https://projecteuler.net/progress=agargiulo">
 		<img src="https://projecteuler.net/profile/agargiulo.png" alt="ProjectEuler profile for agargiulo"/>
 		</a>
@@ -71,10 +76,10 @@ include_once("environment.php");?>
 		<a href="https://twitter.com/argargablar" class="twitter-follow-button" data-show-count="false">Follow @argargablar</a>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <br/>
-	<div class="g-plusone" data-href="https://www.agargiulo.com"></div>
-	<a href="https://www.linkedin.com/pub/anthony-gargiulo/44/526/b1a">
-	<img src="https://www.linkedin.com/img/webpromo/btn_viewmy_120x33.png" style="width: 120; height: 33; border: 0;" alt="View Anthony Gargiulo's profile on LinkedIn">
-	</a>
+		<div class="g-plusone" data-href="https://www.agargiulo.com"></div>
+		<a href="https://www.linkedin.com/pub/anthony-gargiulo/44/526/b1a">
+		<img src="https://www.linkedin.com/img/webpromo/btn_viewmy_120x33.png" style="width: 120; height: 33; border: 0;" alt="View Anthony Gargiulo's profile on LinkedIn">
+		</a>
 	</section>
 	</div>
 	<!--[if !IE]><script>fixScale(document);</script><![endif]-->

@@ -854,3 +854,7 @@ section #title .credits.right {
 .clear {
 	clear: both;
 }
+
+#gravatar_image {
+  float: right
+}
