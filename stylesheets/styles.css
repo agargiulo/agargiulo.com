@@ -844,3 +844,17 @@ section #title .credits.right {
     display: none;
   }
 }
+
+.half {
+	width: 49%;	
+	text-align: center;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+#gravatar_image {
+  float: right
+}
