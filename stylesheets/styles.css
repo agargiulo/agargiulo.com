@@ -851,10 +851,26 @@ section #title .credits.right {
 	float: left;
 }
 
+.center {
+  width: 85%;
+  text-align: center;
+}
+
+.project_thumb {
+  height: auto;
+  width: auto;
+  max-height: 15%;
+  max-width: 15%;
+}
+
 .clear {
 	clear: both;
 }
 
 #gravatar_image {
-  float: right
+  float: left;
+}
+
+#gravatar_image2 {
+  float: right;
 }
