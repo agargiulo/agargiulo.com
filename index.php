@@ -43,22 +43,25 @@ include_once("environment.php");?>
 	I am an RTP (Root-Type Person) for Computer Science House (<a href="http://www.csh.rit.edu">CSH</a>).<br>
 	For fun, I spend a large portion of my time tinkering with either my Linux boxen or random code projects that I find interesting. <br></p>
 
+		<hr/>
 
-		<h2>Resume</h2>
-
-		<p><a href="http://resume.agargiulo.com/resume.pdf">PDF Copy </a>
-		<br><a href="http://resume.agargiulo.com/resume.tex.html">LaTeX source</a>
-		<br><a href="https://github.com/agargiulo/resume">Github repo</a>
-		<br></p>
-
-		<hr>
-		<h2>Contact Info</h2>
-
-		<p><a href="mailto:anthony@agargiulo.com">anthony@agargiulo.com</a><br>
-		<a href="mailto:agargiulo@csh.rit.edu">agargiulo@csh.rit.edu</a><br>
-		<a href="mailto:amg6763@rit.edu">amg6763@rit.edu</a><br>
-		</p>
-		<hr>
+		<div class="half">
+			<h2>Resume</h2>
+			<p><a href="http://resume.agargiulo.com/resume.pdf">PDF Copy </a>
+			<br><a href="http://resume.agargiulo.com/resume.tex.html">LaTeX source</a>
+			<br><a href="https://github.com/agargiulo/resume">Github repo</a>
+			<br></p>
+		</div>
+		<div class="half">
+			<h2>Contact Info</h2>
+			<p><a href="mailto:anthony@agargiulo.com">anthony@agargiulo.com</a><br>
+			<a href="mailto:agargiulo@csh.rit.edu">agargiulo@csh.rit.edu</a><br>
+			<a href="mailto:amg6763@rit.edu">amg6763@rit.edu</a><br>
+			</p>
+		</div>
+		
+		<hr class="clear">
+		
 		<a href="https://projecteuler.net/progress=agargiulo">
 		<img src="https://projecteuler.net/profile/agargiulo.png" alt="ProjectEuler profile for agargiulo"/>
 		</a>
