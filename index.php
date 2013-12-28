@@ -28,24 +28,28 @@ include_once("environment.php");?>
 <a href="https://github.com/agargiulo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
 	<div class="wrapper">
 
-	<section>
+	<section id="about_me">
 		<div id="title">
 		<h1>Anthony Gargiulo</h1>
 		<hr>
-		<span class="credits left">Project maintained by <a href="https://github.com/agargiulo">agargiulo</a></span>
+		<span class="credits left">Site maintained by <a href="https://github.com/agargiulo">agargiulo</a></span>
 		<span class="credits right">Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
 		</div>
 
 		<p id="gravatar_image"><img src="<?=$grav_url?>" alt="Gravatar Avatar"></p>
-		<h1>About Me</h1>
+		<p id="gravatar_image2"><img src="<?=$grav_url2?>" alt="Gravatar Avatar"></p>
+		<div >
+		<h1 class="center">About Me</h1>
 
 		<p>I'm a <?=$RITYearLevel?> year student currently studying Computer Science at Rochester Institute of Technology.
-		I am an RTP (Root-Type Person) for Computer Science House (<a href="http://www.csh.rit.edu">CSH</a>).<br>
-		For fun, I spend a large portion of my time tinkering with either my Linux boxen or random code projects that I find interesting. <br></p>
-	</section>
-	<section>
+		I am an RTP (Root-Type Person) for Computer Science House (<a href="http://www.csh.rit.edu">CSH</a>).
+		For fun, I spend a large portion of my time tinkering with either my Linux boxen or random code projects that I find interesting.</p>
+		</div>
 
+	</section>
+	<section id="information">
 		<hr />
+
 		<div class="half">
 		<h2>Resume</h2>
 
@@ -64,22 +68,35 @@ include_once("environment.php");?>
 		</p>
 		</div>
 	</section>
-	<section>
+	<hr class="clear">
+	<section id="project_section">
+		<div class="center">
+			<h2>Projects</h2>
+			<p><a href="/gatekeeper-android">CSH Gatekeeper for Android</a></p>
+			<a href="//fi.agarg.me/i/gka/welcome_about.png"><img class="project_thumb" src="//fi.agarg.me/i/gka/welcome_about.png"></a>
+		</div>
+	</section>
+	<hr class="clear" />
+	<section id="clickables">
 
-		<hr class="clear">
-		<a href="https://projecteuler.net/progress=agargiulo">
-		<img src="https://projecteuler.net/profile/agargiulo.png" alt="ProjectEuler profile for agargiulo"/>
-		</a>
-		<br>
-		<a href="https://ipv6.he.net/certification/scoresheet.php?pass_name=agargiulo" target="_blank"><img src="https://ipv6.he.net/certification/create_badge.php?pass_name=agargiulo&amp;badge=3" style="border: 0; width: 229px; height: 137px" alt="IPv6 Certification Badge for agargiulo"></a>
-		<br/>
-		<a href="https://twitter.com/argargablar" class="twitter-follow-button" data-show-count="false">Follow @argargablar</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-<br/>
-		<div class="g-plusone" data-href="https://www.agargiulo.com"></div>
-		<a href="https://www.linkedin.com/pub/anthony-gargiulo/44/526/b1a">
-		<img src="https://www.linkedin.com/img/webpromo/btn_viewmy_120x33.png" style="width: 120; height: 33; border: 0;" alt="View Anthony Gargiulo's profile on LinkedIn">
-		</a>
+		<div class="half">
+			<a href="https://projecteuler.net/progress=agargiulo">
+			<img src="https://projecteuler.net/profile/agargiulo.png" alt="ProjectEuler profile for agargiulo"/>
+			</a>
+			<br>
+			<br/>
+			<a href="https://twitter.com/argargablar" class="twitter-follow-button" data-show-count="false">Follow @argargablar</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	<br/>
+			<div class="g-plusone" data-href="https://www.agargiulo.com"></div>
+			<a href="https://www.linkedin.com/pub/anthony-gargiulo/44/526/b1a">
+			<img src="https://www.linkedin.com/img/webpromo/btn_viewmy_120x33.png" style="width: 120; height: 33; border: 0;" alt="View Anthony Gargiulo's profile on LinkedIn">
+			</a>
+		</div>
+		<div class="half">
+			<a href="https://ipv6.he.net/certification/scoresheet.php?pass_name=agargiulo" target="_blank"><img src="https://ipv6.he.net/certification/create_badge.php?pass_name=agargiulo&amp;badge=3" style="border: 0; width: 229px; height: 137px" alt="IPv6 Certification Badge for agargiulo"></a>
+		</div>
+		<hr class="clear" />
 	</section>
 	</div>
 	<!--[if !IE]><script>fixScale(document);</script><![endif]-->
