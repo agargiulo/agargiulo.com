@@ -546,7 +546,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul, ol, table, pre, dl {
-  margin: 0 0 20px;
+  margin: 0 20px;
 }
 
 h1, h2, h3 {
@@ -852,7 +852,6 @@ section #title .credits.right {
 }
 
 .center {
-  width: 85%;
   text-align: center;
 }
 
@@ -868,9 +867,5 @@ section #title .credits.right {
 }
 
 #gravatar_image {
-  float: left;
-}
-
-#gravatar_image2 {
   float: right;
 }

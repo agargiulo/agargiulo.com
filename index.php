@@ -1,31 +1,33 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-	<meta charset="utf-8">
-	<title>Anthony Gargiulo</title>
-	<link rel="stylesheet" href="stylesheets/styles.css">
-	<link rel="stylesheet" href="stylesheets/pygment_trac.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="javascripts/respond.js"></script>
-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<!--[if lt IE 8]>
-<link rel="stylesheet" href="stylesheets/ie.css">
-<![endif]-->
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<head>
+		<meta charset="utf-8">
+		<title>Anthony Gargiulo</title>
+		<link rel="stylesheet" href="stylesheets/styles.css">
+		<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="javascripts/respond.js"></script>
+		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!--[if lt IE 8]>
+		<link rel="stylesheet" href="stylesheets/ie.css">
+		<![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-</head>
-<body>
-<?
-if ($_SERVER['SERVER_NAME'] == "www.agargiulo.com")
-{
-	include_once("analyticstracking.php");
-}
-include_once("gravatar.php");
-include_once("environment.php");?>
-<a href="https://github.com/agargiulo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+	</head>
+	<body>
+		<?
+		if ($_SERVER['SERVER_NAME'] == "www.agargiulo.com")
+		{
+			include_once("analyticstracking.php");
+		}
+		include_once("gravatar.php");
+		include_once("environment.php");
+		?>
+
+		<a href="https://github.com/agargiulo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
 	<div class="wrapper">
 
 	<section id="about_me">
@@ -37,7 +39,6 @@ include_once("environment.php");?>
 		</div>
 
 		<p id="gravatar_image"><img src="<?=$grav_url?>" alt="Gravatar Avatar"></p>
-		<p id="gravatar_image2"><img src="<?=$grav_url2?>" alt="Gravatar Avatar"></p>
 		<div >
 		<h1 class="center">About Me</h1>
 
