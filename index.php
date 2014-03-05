@@ -7,7 +7,6 @@
 		<link rel="stylesheet" href="stylesheets/pygment_trac.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="javascripts/respond.js"></script>
-		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 		<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -34,19 +33,25 @@
 		<div id="title">
 		<h1>Anthony Gargiulo</h1>
 		<hr>
-		<span class="credits left">Site maintained by <a href="https://github.com/agargiulo">agargiulo</a></span>
-		<span class="credits right">Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
 		</div>
 
-		<p id="gravatar_image"><img src="<?=$grav_url?>" alt="Gravatar Avatar"></p>
+		<p id="gravatar_image"><img src="<?=$grav_url2?>" alt="Gravatar Avatar"></p>
 		<div >
 		<h1 class="center">About Me</h1>
 
 		<p>I'm a <?=$RITYearLevel?> year student currently studying Computer Science at Rochester Institute of Technology.
 		I am an RTP (Root-Type Person) for Computer Science House (<a href="http://www.csh.rit.edu">CSH</a>).
-		For fun, I spend a large portion of my time tinkering with either my Linux boxen or random code projects that I find interesting.</p>
+		For fun, I spend a large portion of my time tinkering with either my Linux boxes or random code projects that I find interesting.</p>
 		</div>
 
+	</section>
+	<section id="project_section">
+		<hr>
+		<div class="center">
+			<h2>Projects</h2>
+			<p><a href="/gatekeeper-android/">CSH Gatekeeper for Android</a></p>
+			<a href="/gatekeeper-android/"><img class="project_thumb" src="//fi.agarg.me/i/gka/welcome_about.png"></a>
+		</div>
 	</section>
 	<section id="information">
 		<hr />
@@ -69,15 +74,15 @@
 		</p>
 		</div>
 	</section>
-	<hr class="clear">
-	<section id="project_section">
-		<div class="center">
-			<h2>Projects</h2>
-			<p><a href="/gatekeeper-android">CSH Gatekeeper for Android</a></p>
-			<a href="//fi.agarg.me/i/gka/welcome_about.png"><img class="project_thumb" src="//fi.agarg.me/i/gka/welcome_about.png"></a>
-		</div>
+	<section id="main_footer">
+		<hr class="clear">
+		<!--div id="under"> 
+			<p> <a href="mailto:anthony@agargiulo.com">Anthony Gargiulo</a> </p>
+			<p> Theme designed by <a href="http://twitter.com/#!/michigangraham">mattgraham</a> </p> 
+			<p> Copyright 2013 © Anthony Gargiulo </p>
+		</div--> 
 	</section>
-	<hr class="clear" />
+<!--
 	<section id="clickables">
 
 		<div class="half">
@@ -99,6 +104,7 @@
 		</div>
 		<hr class="clear" />
 	</section>
+-->
 	</div>
 	<!--[if !IE]><script>fixScale(document);</script><![endif]-->
 

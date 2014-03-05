@@ -680,7 +680,7 @@ hr {
   outline: none;
   height: 3px;
   background: transparent url("../images/hr.gif") center center repeat-x;
-  margin: 0 0 20px;
+  margin: 0 -20px 20px;
 }
 
 dt {
@@ -785,7 +785,7 @@ section #title {
   border: 0;
   outline: none;
   margin: 0 0 50px 0;
-  padding: 0 0 5px 0;
+  padding: 10px 0 5px 0;
 }
 section #title h1 {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -869,3 +869,5 @@ section #title .credits.right {
 #gravatar_image {
   float: right;
 }
+#under { padding: 10px 0 50px 0; background: white; color: #bbb; font-size: 90%; } #under p:first-child { padding-left: 50px; text-align: left; } #under p { width: 33.33%; float: left; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; }
+
