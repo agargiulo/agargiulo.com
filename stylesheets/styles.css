@@ -858,8 +858,8 @@ section #title .credits.right {
 .project_thumb {
   height: auto;
   width: auto;
-  max-height: 15%;
-  max-width: 15%;
+  max-height: 35%;
+  max-width: 35%;
 }
 
 .clear {

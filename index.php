@@ -39,8 +39,8 @@
 		<div >
 		<h1 class="center">About Me</h1>
 
-		<p>I'm a <?=$RITYearLevel?> year student currently studying Computer Science at Rochester Institute of Technology.
-		I am an RTP (Root-Type Person) for Computer Science House (<a href="http://www.csh.rit.edu">CSH</a>).
+		<p>I'm a student studying Computer Science at Rochester Institute of Technology.
+		I was an RTP (Root-Type Person) for Computer Science House (<a href="http://www.csh.rit.edu">CSH</a>).
 		For fun, I spend a large portion of my time tinkering with either my Linux boxes or random code projects that I find interesting.</p>
 		</div>
 
@@ -50,7 +50,7 @@
 		<div class="center">
 			<h2>Projects</h2>
 			<p><a href="/gatekeeper-android/">CSH Gatekeeper for Android</a></p>
-			<a href="/gatekeeper-android/"><img class="project_thumb" src="//fi.agarg.me/i/gka/welcome_about.png"></a>
+			<a href="/gatekeeper-android/"><img class="project_thumb" src="images/gka/welcome_about.png"></a>
 		</div>
 	</section>
 	<section id="information">
