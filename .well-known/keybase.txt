@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/agargiulo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.agargiulo.com
+  * I am agargiulo (https://keybase.io/agargiulo) on keybase.
+  * I have a public key with fingerprint 876B 2809 2A50 117C 8E1E  7191 F3AC 2494 EBC0 0C8B
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "876b28092a50117c8e1e7191f3ac2494ebc00c8b",
+            "host": "keybase.io",
+            "key_id": "f3ac2494ebc00c8b",
+            "kid": "0101080428ad73731676c068f949b6e192669122431b364dae705d9a15cbeed07aec0a",
+            "uid": "8bcbb6fbae917bf886ca643c6cb12a00",
+            "username": "agargiulo"
+        },
+        "service": {
+            "hostname": "www.agargiulo.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1422887342,
+    "expire_in": 157680000,
+    "prev": "ce2ed93fa20a7a8ed4ff03364df93b6a2f334bb23b385e4dac4dd73d84eaa8d2",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFtkm1QVFUYx9kVkDdbnQhxUhgvjXxggfu292VJWQSmMRAhappimPXce89dbsve
+u+wuC2SQZuQL4gAxaioOA2MvE5I5RjmB5sSEq0aEQssshpYCTVSbDDAyKt3LWJ86
+58OZ8zz/53fO85+nadWKEL1utuu51t+/iWnQXfuNC3n5hwM9uxBOEWoQ8y7EDpcP
+UZJt0OV0SbIHMSMMTXE4g7I4MKEYRvMMxCCNsZhIAB4nWRJyPIryDIcYkTLFrVWo
+GA64YZqkqDH1YpUENfo/evtyAsXUzaAkzgCBJmgCo2iKRylGZEmWoyDG4hTFYjhO
+EhhHUKQAII2aBBZgJp6DUEBpAHkUqLjKZRzD8RxHiRyALEZzIsNQPKBIgqd4DsMB
+impCN3TJwAFVNbABl02qLFeQWiOihr0SDzUPtFaeSKqqqtL+k6XxikMlOF2KR+GV
+cjVd5vE43Wat3FPjXNZDzvqEZOUkWVDdVCu80OWWFBkxY6qS90gaGiNxnGFogsSN
+CKx2Si5olTSFiaYYVF3aO9CrInmIQ4ElRICjgAYMFEhRRAnNDJElOArgIkGQHIcT
+HMGYoGoRTwqqlwJDQgAYAUe03ipkBTET6jeBTUW6JZscATyVLojURh3Qrw8N0elD
+wsP02kSEREWu/ndMnL2GpZIP7qR11G+enu6mE/YXHb88ZN/W9bS8vTTw7eCGhttf
+rLrz8PmPsJ9hV5G4xTDz2Gdcn+N/3H184i52rHO4MTTR0nR73RTiiHCV/nm6Fc0D
+k3u7hsfJyLY39vzq6y0Ha5ojorZnmR55s6PN1fzmLT+hcK+d2fFJ8qnChMKPq2OW
+Mvd93hHom9yNDJ68F/3ww5EopsDBD9U8w/Y/uJyd5buSU/F+3Dul+cfqN248ene4
+Ly88x1Bi8EWPRR8SdgQXzsW+2poUG21fevHMQl3/eUuTFyuO311CpyZOeDsDL1Wu
+TK3w4ylhwcNT7a/Lc2Nnb9z//ojcnPLs6U25U7MLheGB3NeKL/7x6ETJGiHsbLo3
+fUPH0A3l/FT7lcmWmnj0Knr9xCnL4oOMmZUJxp7E9jcje6jpW+6vegw6/0RpUl7b
+tVcGfnHXFesN9z/NHBPfTapd+EtaqAw15FuUwfkC/ejo+H5s7Zn8g3Ff/23rw5uO
+Vqx9L2lx09b+H2/6DyW/ndordjbcs6UEk5I/a2kdTdy3QsjEb5UT/kLk4LnxcH7E
+kxFjqdvadjEjYMu2zg3kxlHxokeGq8tyTlr5kbbrLRe+tFi6pZv62WYy90jwO535
+0gsDI76ixvkq3YWdjgnkKXusf0+gZC4i0LgtuA73ZQXnZw7Xty76dqZfkq6+xRb0
+RVn/AQ==
+=Sxdh
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/agargiulo
+
+==================================================================
+
