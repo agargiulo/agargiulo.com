@@ -1,6 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+<?
+include_once("gravatar.php");
+include_once("meta.php");
+?>
 		<meta charset="utf-8">
 		<title>Anthony Gargiulo</title>
 		<link rel="stylesheet" href="stylesheets/styles.css">
@@ -22,7 +26,6 @@
 		{
 			include_once("analyticstracking.php");
 		}
-		include_once("gravatar.php");
 		include_once("environment.php");
 		?>
 
@@ -35,7 +38,7 @@
 		<hr>
 		</div>
 
-		<p id="gravatar_image"><img src="<?=$grav_url2?>" alt="Gravatar Avatar"></p>
+		<p id="gravatar_image"><img src="<?=$grav_url?>" alt="Gravatar Avatar"></p>
 		<div >
 		<h1 class="center">About Me</h1>
 
