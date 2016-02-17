@@ -42,7 +42,7 @@ include_once("meta.php");
 		<div >
 		<h1 class="center">About Me</h1>
 
-		<p>I'm a student studying Computer Science at Rochester Institute of Technology.
+		<p>I studied Computer Science at Rochester Institute of Technology.
 		I was an RTP (Root-Type Person) for Computer Science House (<a href="http://www.csh.rit.edu">CSH</a>).
 		For fun, I spend a large portion of my time tinkering with either my Linux boxes or random code projects that I find interesting.</p>
 		</div>
