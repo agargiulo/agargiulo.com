@@ -72,8 +72,6 @@ include_once("meta.php");
 		<h2>Contact Info</h2>
 
 		<p><a href="mailto:anthony@agargiulo.com">anthony@agargiulo.com</a><br>
-		<a href="mailto:agargiulo@csh.rit.edu">agargiulo@csh.rit.edu</a><br>
-		<a href="mailto:amg6763@rit.edu">amg6763@rit.edu</a><br>
 		</p>
 		</div>
 	</section>
