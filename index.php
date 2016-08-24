@@ -3,6 +3,7 @@
 	<head>
 <?
 include_once("gravatar.php");
+include_once("environment.php");
 include_once("meta.php");
 ?>
 		<meta charset="utf-8">
@@ -26,7 +27,6 @@ include_once("meta.php");
 		{
 			include_once("analyticstracking.php");
 		}
-		include_once("environment.php");
 		?>
 
 		<!--a href="https://github.com/agargiulo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a-->
