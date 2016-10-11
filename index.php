@@ -28,8 +28,6 @@ include_once("meta.php");
 			include_once("analyticstracking.php");
 		}
 		?>
-
-		<!--a href="https://github.com/agargiulo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a-->
 	<div class="wrapper">
 
 	<section id="about_me">
@@ -52,7 +50,12 @@ include_once("meta.php");
 		<hr>
 		<div class="center">
 			<h2>Projects</h2>
-			<p><a href="/gatekeeper-android/">CSH Gatekeeper for Android</a></p>
+			<h3><a href="//github.com/agargiulo/git-fukit">Git Fukit</a></h3>
+			<p>For all the times you just want to throw your hands up and shout at git
+			<br>Just <b>git fukit</b> and carry on coding away</p>
+			<img src="images/git-fukit-warning.png">
+			<br><br>
+			<h3><a href="/gatekeeper-android/">CSH Gatekeeper for Android</a></h4>
 			<a href="/gatekeeper-android/"><img class="project_thumb" src="images/gka/welcome_about.png"></a>
 		</div>
 	</section>
