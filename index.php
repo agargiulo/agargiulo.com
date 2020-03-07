@@ -1,3 +1,10 @@
+<?php
+  if ($_SERVER['SERVER_NAME'] == "agargiulo.com")
+  {
+    header("Location: https://www.agargiulo.com", true, 301);
+    die();
+  }
+?>
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -75,6 +82,7 @@ include_once("meta.php");
 		<h2>Contact Info</h2>
 
 		<p><a href="mailto:anthony@agargiulo.com">anthony@agargiulo.com</a><br>
+		<p><a rel="me" href="https://toot.doom.fm/@agargiulo">@agargiulo@doom.fm</a><br>
 		</p>
 		</div>
 	</section>
@@ -86,29 +94,6 @@ include_once("meta.php");
 			<p> Copyright 2013 © Anthony Gargiulo </p>
 		</div--> 
 	</section>
-<!--
-	<section id="clickables">
-
-		<div class="half">
-			<a href="https://projecteuler.net/progress=agargiulo">
-			<img src="https://projecteuler.net/profile/agargiulo.png" alt="ProjectEuler profile for agargiulo"/>
-			</a>
-			<br>
-			<br/>
-			<a href="https://twitter.com/argargablar" class="twitter-follow-button" data-show-count="false">Follow @argargablar</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-	<br/>
-			<div class="g-plusone" data-href="https://www.agargiulo.com"></div>
-			<a href="https://www.linkedin.com/pub/anthony-gargiulo/44/526/b1a">
-			<img src="https://www.linkedin.com/img/webpromo/btn_viewmy_120x33.png" style="width: 120; height: 33; border: 0;" alt="View Anthony Gargiulo's profile on LinkedIn">
-			</a>
-		</div>
-		<div class="half">
-			<a href="https://ipv6.he.net/certification/scoresheet.php?pass_name=agargiulo" target="_blank"><img src="https://ipv6.he.net/certification/create_badge.php?pass_name=agargiulo&amp;badge=3" style="border: 0; width: 229px; height: 137px" alt="IPv6 Certification Badge for agargiulo"></a>
-		</div>
-		<hr class="clear" />
-	</section>
--->
 	</div>
 	<!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
