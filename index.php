@@ -57,9 +57,15 @@ include_once("meta.php");
 		<hr>
 		<div class="center">
 			<h2>Projects</h2>
+			<h3><a href="https://src.doom.fm/tcelfer-me">Tcelfer</a></h3>
+			<p>Reflect on your day with this color coded mood tracker.</p>
+			<br>
+			<img src="images/tcelfer_report.png">
+			<br/><br/>
 			<h3><a href="//github.com/agargiulo/git-fukit">Git Fukit</a></h3>
 			<p>For all the times you just want to throw your hands up and shout at git
 			<br>Just <b>git fukit</b> and carry on coding away</p>
+			<br>
 			<img src="images/git-fukit-warning.png">
 			<br><br>
 			<h3><a href="/gatekeeper-android/">CSH Gatekeeper for Android</a></h4>
