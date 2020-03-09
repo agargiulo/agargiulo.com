@@ -1,0 +1,31 @@
+default:
+  image: python:3.8.2-alpine3.11
+
+variables:
+  SITE_BUNDLE: agargiulo-com.tar
+
+stages:
+  - build
+  - deploy
+
+tar:
+  stage: build
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+  before_script:
+    - apk add tar &> /dev/null
+  script:
+    - tar -C ../ -cf "${SITE_BUNDLE}" --exclude-vcs --one-top-level --exclude "${SITE_BUNDLE}" "${CI_PROJECT_NAME}"
+  artifacts:
+    paths:
+      - "${SITE_BUNDLE}"
+
+deploy3:
+  stage: deploy
+  variables:
+    GIT_STRATEGY: none
+  before_script:
+    - python3 -m pip install awscli &> /dev/null
+  script:
+    - tar -tf "${SITE_BUNDLE}"
+    - aws s3 cp "${SITE_BUNDLE}" "s3://${AGARG_php_s3}/${CI_COMMIT_BRANCH}/${CI_COMMIT_SHORT_SHA}-${SITE_BUNDLE}"
