@@ -27,5 +27,4 @@ deploy3:
   before_script:
     - python3 -m pip install awscli &> /dev/null
   script:
-    - tar -tf "${SITE_BUNDLE}"
     - aws s3 cp "${SITE_BUNDLE}" "s3://${AGARG_php_s3}/${CI_COMMIT_BRANCH}/${CI_COMMIT_SHORT_SHA}-${SITE_BUNDLE}"
