@@ -15,7 +15,7 @@ tar:
   before_script:
     - apk add tar &> /dev/null
   script:
-    - tar -C ../ -cf "${SITE_BUNDLE}" --exclude-vcs --one-top-level --exclude "${SITE_BUNDLE}" "${CI_PROJECT_NAME}"
+    - tar -C ../ -cf "${SITE_BUNDLE}" --exclude-vcs --exclude "${SITE_BUNDLE}" "${CI_PROJECT_NAME}"
   artifacts:
     paths:
       - "${SITE_BUNDLE}"

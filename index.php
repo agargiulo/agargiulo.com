@@ -68,8 +68,8 @@ include_once("meta.php");
 			<br>
 			<img src="images/git-fukit-warning.png">
 			<br><br>
-			<h3><a href="/gatekeeper-android/">CSH Gatekeeper for Android</a></h4>
-			<a href="/gatekeeper-android/"><img class="project_thumb" src="images/gka/welcome_about.png"></a>
+			<h3><a href="gatekeeper-android/">CSH Gatekeeper for Android</a></h3>
+			<a href="gatekeeper-android/"><img class="project_thumb" src="images/gka/welcome_about.png"></a>
 		</div>
 	</section>
 	<section id="information">
