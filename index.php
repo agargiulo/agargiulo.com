@@ -8,7 +8,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-<?
+<?php
 include_once("gravatar.php");
 include_once("environment.php");
 include_once("meta.php");
@@ -19,9 +19,6 @@ include_once("meta.php");
 		<link rel="stylesheet" href="stylesheets/pygment_trac.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="javascripts/respond.js"></script>
-		<!--[if lt IE 9]>
-		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
 		<!--[if lt IE 8]>
 		<link rel="stylesheet" href="stylesheets/ie.css">
 		<![endif]-->
@@ -29,7 +26,7 @@ include_once("meta.php");
 
 	</head>
 	<body>
-		<?
+		<?php
 		if ($_SERVER['SERVER_NAME'] == "www.agargiulo.com")
 		{
 			include_once("analyticstracking.php");
@@ -43,7 +40,7 @@ include_once("meta.php");
 		<hr>
 		</div>
 
-		<p id="gravatar_image"><img src="<?=$grav_url?>" alt="Gravatar Avatar"></p>
+		<p id="gravatar_image"><img src="<?php echo($grav_url);?>" alt="Gravatar Avatar"></p>
 		<div >
 		<h1 class="center">About Me</h1>
 

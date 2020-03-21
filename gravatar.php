@@ -1,4 +1,4 @@
-<?
+<?php
 $email = "anthony@agargiulo.com";
 $email2 = "agargiulo@csh.rit.edu";
 $size = 190;
