@@ -1,5 +1,5 @@
 <?php
-  if ($_SERVER['SERVER_NAME'] == "agargiulo.com")
+  if ($_SERVER['HTTP_HOST'] == "agargiulo.com")
   {
     header("Location: https://www.agargiulo.com", true, 301);
     die();
@@ -27,7 +27,7 @@ include_once("meta.php");
 	</head>
 	<body>
 		<?php
-		if ($_SERVER['SERVER_NAME'] == "www.agargiulo.com")
+		if ($_SERVER['HTTP_HOST'] == "www.agargiulo.com")
 		{
 			include_once("analyticstracking.php");
 		}
