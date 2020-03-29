@@ -1,7 +1,7 @@
 <?php
-  if ($_SERVER['HTTP_HOST'] == "agargiulo.com")
+  if ($_SERVER['HTTP_HOST'] == $_SERVER['SERVER_NAME'])
   {
-    header("Location: https://www.agargiulo.com", true, 301);
+    header("Location: https://www.{$_SERVER['SERVER_NAME']}", true, 301);
     die();
   }
 ?>
