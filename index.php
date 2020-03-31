@@ -24,14 +24,14 @@ include_once("meta.php");
 		<![endif]-->
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-	</head>
-	<body>
 		<?php
 		if ($_SERVER['HTTP_HOST'] == "www.agargiulo.com")
 		{
 			include_once("analyticstracking.php");
 		}
 		?>
+	</head>
+	<body>
 	<div class="wrapper">
 
 	<section id="about_me">
