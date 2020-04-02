@@ -1,5 +1,7 @@
 default:
   image: python:3.8.2-alpine3.11
+  tags:
+    - shared-exec-docker
 
 variables:
   SITE_BUNDLE: agargiulo-com.tar
