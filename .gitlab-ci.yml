@@ -9,6 +9,7 @@ variables:
 stages:
   - build
   - deploy
+  - trigger
 
 tar:
   stage: build
@@ -30,3 +31,12 @@ deploy3:
     - python3 -m pip install awscli &> /dev/null
   script:
     - aws s3 cp "${SITE_BUNDLE}" "s3://${AGARG_php_s3}/${CI_COMMIT_REF_NAME}/${CI_COMMIT_SHORT_SHA}-${SITE_BUNDLE}"
+
+trigger-www_agarg_ami:
+  stage: trigger
+  variables:
+    AGARGIULO_COM_PHP_VERSION: ${CI_COMMIT_REF_NAME}
+  trigger:
+    project: agargiulo/www_agarg_ami
+    branch: multi-pipeline
+    strategy: depend
