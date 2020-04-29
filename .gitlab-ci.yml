@@ -1,5 +1,7 @@
 default:
   image: python:3.8.2-alpine3.11
+  tags:
+    - shared-exec-docker
 
 variables:
   SITE_BUNDLE: agargiulo-com.tar
@@ -7,6 +9,7 @@ variables:
 stages:
   - build
   - deploy
+  - trigger
 
 tar:
   stage: build
@@ -19,6 +22,7 @@ tar:
   artifacts:
     paths:
       - "${SITE_BUNDLE}"
+    expire_in: 1 hour
 
 deploy3:
   stage: deploy
@@ -28,3 +32,12 @@ deploy3:
     - python3 -m pip install awscli &> /dev/null
   script:
     - aws s3 cp "${SITE_BUNDLE}" "s3://${AGARG_php_s3}/${CI_COMMIT_REF_NAME}/${CI_COMMIT_SHORT_SHA}-${SITE_BUNDLE}"
+
+trigger-www_agarg_ami:
+  stage: trigger
+  variables:
+    AGARGIULO_COM_PHP_VERSION: ${CI_COMMIT_REF_NAME}
+  trigger:
+    project: agargiulo/www_agarg_ami
+    branch: multi-pipeline
+    strategy: depend
