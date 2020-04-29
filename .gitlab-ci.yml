@@ -39,5 +39,5 @@ trigger-www_agarg_ami:
     AGARGIULO_COM_PHP_VERSION: ${CI_COMMIT_REF_NAME}
   trigger:
     project: agargiulo/www_agarg_ami
-    branch: multi-pipeline
+    branch: v1.3.0
     strategy: depend
