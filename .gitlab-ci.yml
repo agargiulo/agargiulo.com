@@ -22,6 +22,7 @@ tar:
   artifacts:
     paths:
       - "${SITE_BUNDLE}"
+    expire_in: 1 hour
 
 deploy3:
   stage: deploy
